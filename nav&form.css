@@ -1,0 +1,67 @@
+/* Form */
+form{
+    width: 30%;
+    margin-left: 35%;
+    border: 1px solid orange;
+    background-color: orange;
+    padding: 2%
+}
+
+input{
+    width: 96%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+button{
+    width: 50%;
+    margin-left: 25%;
+    height: 40px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Navbar */
+#navbar{
+    width: 100%;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    background-color: orange;
+}
+
+/* side navbar */
+#sidebar{
+    width: 20%;
+    z-index: 2;
+    position: relative;
+    left: 80%;
+    height: auto;
+    background-color: orange;
+    padding: 2%;
+}
+
+#sidebar img{
+    width: 80%;
+    border-radius: 100%;
+}
+
+/* news container */
+#news_container{
+    width: 70%;
+    margin-top: -400px;
+}
+#news_container>div{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+#news_container img{
+  width: 40%;
+}
+
+h1{
+    cursor: pointer;
+}
